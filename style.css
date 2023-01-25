@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #14141cfe;
+    font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #eee;
+}
+.navbar{
+    text-align: center;
+    background-color: #1b1b49;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.info > h3{
+    margin: 30px;
+}
+#players{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#players > div{
+    margin: 30px;
+}
+#message{
+    color: gold;
+}
+.options  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.options>div:hover{
+    border: 3px solid blue;
+    box-shadow: 0 0 10px 0;
+}
+#btn {
+    margin: 20px;
+    padding: 10px;
+    background-color: gold;
+    border: 2px gold solid;
+    border-radius: 2px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.lose{
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+.win{
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+}
